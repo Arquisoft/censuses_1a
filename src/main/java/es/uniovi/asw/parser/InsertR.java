@@ -16,7 +16,7 @@ public class InsertR implements Insert {
 			String codigoMesa) {
 		
 		Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa);	
-		usuarios.add(new User(nombre,NIF,email,codigoMesa));
+		usuarios.add(new User(nombre,NIF,email,Integer.parseInt(codigoMesa)));
 		
 	}
 	

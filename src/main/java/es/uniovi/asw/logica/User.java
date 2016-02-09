@@ -5,10 +5,10 @@ public class User {
 	private String name;
 	private String NIF;
 	private String email;
-	private String codigoMesa;
+	private int codigoMesa;
 	
 
-	public User(String name,String NIF,String email,String codigoMesa){
+	public User(String name,String NIF,String email,int codigoMesa){
 		this.setName(name);
 		this.setNIF(NIF);
 		this.email = email;
@@ -44,12 +44,12 @@ public class User {
 		this.email = email;
 	}
 
-	public String getCodigoMesa() {
+	public int getCodigoMesa() {
 		return codigoMesa;
 	}
 
 
-	public void setCodigoMesa(String codigoMesa) {
+	public void setCodigoMesa(int codigoMesa) {
 		this.codigoMesa = codigoMesa;
 	}
 	
