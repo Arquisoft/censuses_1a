@@ -1,7 +1,7 @@
 package es.uniovi.asw;
 
+import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
-import es.uniovi.asw.parser.ReadCensusXLSX;
 
 /**
  * Main application
@@ -17,10 +17,8 @@ public class LoadUsers {
 
 	}
 
-	// TODO
-	void run(String... args) {
-				
-		ReadCensus readCensus = new ReadCensusXLSX(args[0]);
+	void run(String... args) {		
+		ReadCensus readCensus = new RCensus(args[0]);
 		readCensus.readCensus();
 	
 	}
