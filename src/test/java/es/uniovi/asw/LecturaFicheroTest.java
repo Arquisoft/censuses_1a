@@ -18,6 +18,10 @@ public class LecturaFicheroTest {
 		readCensus.readCensus();
 		List<User> usuarios = readCensus.getUsuarios();
 		
+		//Existen 4 entradas de usuarios en el xls pero solo 2 tiene todos
+		//los campos obligatorios
+		assertEquals(usuarios.size(), 2);
+		
 		User usuario1 = usuarios.get(0);
 		User usuario2 = usuarios.get(1);
 		
@@ -32,6 +36,10 @@ public class LecturaFicheroTest {
 		
 		assertEquals(usuario1.getCodigoMesa(), "1");
 		assertEquals(usuario2.getCodigoMesa(), "2");
+		
+		
+		
+		
 			
 	}
 
