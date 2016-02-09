@@ -2,8 +2,11 @@ package es.uniovi.asw.parser;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 import es.uniovi.asw.dbUpdate.Insert;
+import es.uniovi.asw.logica.User;
+import es.uniovi.asw.util.Comprobador;
 import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
@@ -49,29 +52,18 @@ public class RCensus implements ReadCensus {
 			System.out.print(email+" - ");
 			System.out.println(codigoMesa);
 			
-			comprobacionDatos(nombre,NIF,email,codigoMesa);
+			if(Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa)){
 			
-			insert.insertarUsuarios(nombre, NIF, email, codigoMesa);
+				insert.insertarUsuarios(nombre, NIF, email, codigoMesa);
 			
-			
-			
+			}
+					
 		}
 			
-		
 	}
 	
-	private boolean comprobacionDatos(String nombre,String NIF,String email,
-			String codigoMesa){
-		
-		if(nombre.isEmpty() && NIF.isEmpty() && email.isEmpty() &&
-				codigoMesa.isEmpty() ){
-			
-			return false;
-			
-		}
-		
-		
-		return true;
+	public List<User> getUsuarios(){
+		return insert.getUsuarios();
 	}
-
+	
 }
