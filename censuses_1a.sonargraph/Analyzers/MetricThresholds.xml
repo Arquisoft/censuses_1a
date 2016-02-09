@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<analyzerConfiguration version="8.6.3.356" analyzer="MetricThresholds">
-    <stringEntry value="0.000000:45.000000" name="CoreAcd:Module"></stringEntry>
-    <stringEntry value="0.000000:75.000000" name="CoreAcd:System"></stringEntry>
-    <stringEntry value="0:900" name="CoreLinesOfCode:SourceFile"></stringEntry>
-</analyzerConfiguration>
