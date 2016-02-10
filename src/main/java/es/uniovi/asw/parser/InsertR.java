@@ -3,7 +3,6 @@ package es.uniovi.asw.parser;
 import java.util.LinkedList;
 import java.util.List;
 
-import es.uniovi.asw.dbUpdate.Insert;
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.util.Comprobador;
 
@@ -17,6 +16,8 @@ public class InsertR implements Insert {
 		
 		Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa);	
 		usuarios.add(new User(nombre,NIF,email,Integer.parseInt(codigoMesa)));
+		
+		//Pasar a dbUpdate 
 		
 	}
 	

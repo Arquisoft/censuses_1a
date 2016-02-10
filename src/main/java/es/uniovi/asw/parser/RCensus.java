@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import es.uniovi.asw.dbUpdate.Insert;
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.util.Comprobador;
 import jxl.Sheet;

@@ -1,26 +1,15 @@
 package es.uniovi.asw.dbUpdate;
 
-import java.util.List;
-
 import es.uniovi.asw.logica.User;
 
 public interface Insert {
 	
 	/**
-	 * Inserta los usuarios en una colección y comprueba que sean válidos
+	 * Recibe un objeto User y lo inserta en la base de datos
 	 * 
-	 * @param nombre
-	 * @param NIF
-	 * @param email
-	 * @param codigoMesa
+	 * @param usuario
 	 */
-	void insertarUsuarios(String nombre,String NIF,String email,String codigoMesa);
+	void insertarUsuarios(User usuario);
 	
-	
-	/**
-	 * Devuelve los usuarios que se van a insertar
-	 * @return
-	 */
-	List<User> getUsuarios();
 
 }
