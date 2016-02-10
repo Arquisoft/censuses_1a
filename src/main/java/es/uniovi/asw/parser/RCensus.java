@@ -12,8 +12,7 @@ import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
 public class RCensus implements ReadCensus {
-	
-	
+		
 	File fichero;
 	Insert insert;
 
@@ -46,7 +45,7 @@ public class RCensus implements ReadCensus {
 			String NIF = censos.getCell(1,i).getContents();
 			String email = censos.getCell(2,i).getContents();
 			String codigoMesa = censos.getCell(3,i).getContents();
-					
+				
 			System.out.print(nombre+" - ");
 			System.out.print(NIF+" - ");
 			System.out.print(email+" - ");

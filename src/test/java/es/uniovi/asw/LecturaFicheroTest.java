@@ -34,13 +34,9 @@ public class LecturaFicheroTest {
 		assertEquals(usuario1.getEmail(), "jorge@gmail.com");
 		assertEquals(usuario2.getEmail(), "miguel@gmail.com");
 		
-		assertEquals(usuario1.getCodigoMesa(), "1");
-		assertEquals(usuario2.getCodigoMesa(), "2");
-		
-		
-		
-		
-			
+		assertEquals(usuario1.getCodigoMesa(), 1);
+		assertEquals(usuario2.getCodigoMesa(), 2);
+				
 	}
 
 }
