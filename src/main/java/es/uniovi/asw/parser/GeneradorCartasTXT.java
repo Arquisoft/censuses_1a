@@ -33,7 +33,7 @@ public class GeneradorCartasTXT implements GeneradorCartas{
 		
 		
 		
-		return null;
+		return contraseña;
 	}
 
 	private String generarContraseña() {

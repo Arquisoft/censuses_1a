@@ -52,5 +52,22 @@ public class ComprobaCartas {
 		}
 		
 	}
+	
+	@Test
+	public void testContraseña() throws IOException {
+		rellenar();
+		for(int i=0;i<cartas.size();i++)
+		{
+			FileReader fr=new FileReader(cartas.get(i));
+			BufferedReader br=new BufferedReader(fr);
+			List<String>trozos=new ArrayList<String>();
+			while(br.ready())
+				trozos.add(br.readLine());
+			
+			assertTrue(trozos.get(2).contains(excel.get(i).getContraseña()));
+				
+		}
+		
+	}
 
 }
