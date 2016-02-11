@@ -37,8 +37,7 @@ public class RCensus implements ReadCensus {
 		}
 		
 		Sheet censos = wB.getSheet("Censos");
-		
-		System.out.println("Leyendo usuarios...");
+	
 			
 		for(int i=1;i<censos.getRows();i++){
 			
@@ -46,11 +45,7 @@ public class RCensus implements ReadCensus {
 			String NIF = censos.getCell(1,i).getContents();
 			String email = censos.getCell(2,i).getContents();
 			String codigoMesa = censos.getCell(3,i).getContents();
-				
-			System.out.print(nombre+" - ");
-			System.out.print(NIF+" - ");
-			System.out.print(email+" - ");
-			System.out.println(codigoMesa);
+
 			
 			if(Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa)){
 			
