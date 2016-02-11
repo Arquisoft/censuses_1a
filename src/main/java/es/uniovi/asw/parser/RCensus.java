@@ -14,12 +14,14 @@ public class RCensus implements ReadCensus {
 		
 	File fichero;
 	Insert insert;
+	GeneradorCartas generador;
 	
 	
 
 	public RCensus(String ruta) {
 		fichero = new File(ruta);
 		insert = new InsertR();
+		generador = new GeneradorCartasTXT();
 	}
 
 	@Override
@@ -49,7 +51,9 @@ public class RCensus implements ReadCensus {
 			
 			if(Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa)){
 			
+				String contraseña = generador.generarCarta(nombre, email);
 				insert.insertarUsuarios(nombre, NIF, email, codigoMesa);
+				
 			
 			}
 					
