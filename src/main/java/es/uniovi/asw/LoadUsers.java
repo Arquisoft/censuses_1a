@@ -1,11 +1,16 @@
 package es.uniovi.asw;
 
+import java.util.List;
+
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
+import org.springframework.data.jpa.repository.query.Jpa21Utils;
 
+import es.uniovi.asw.dbUpdate.Jpa;
+import es.uniovi.asw.logica.User;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
@@ -28,7 +33,7 @@ public class LoadUsers {
 	}
 
 	void run(String... args) {		
-		
+//		List<User> users = Jpa.getManager().createNamedQuery("User.findAll",User.class).getResultList();
 		Options options = new Options();
 		options.addOption("x", false, "add xls file");
 		

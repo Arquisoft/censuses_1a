@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import org.springframework.data.jpa.repository.query.Jpa21Utils;
+
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.util.Comprobador;
 import jxl.Sheet;
@@ -26,7 +28,6 @@ public class RCensus implements ReadCensus {
 
 	@Override
 	public void readCensus() {
-		
 		Workbook wB = null;
 		
 		try {
