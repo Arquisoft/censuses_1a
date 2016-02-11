@@ -20,8 +20,7 @@ public class LoadUsers {
 	 ReadCensus readCensus = null;
 
 	public static void main(String... args) {
-	
-	
+		
 		LoadUsers runner = new LoadUsers();
 		runner.run(args);
 

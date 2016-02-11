@@ -28,6 +28,8 @@ public class RCensus implements ReadCensus {
 	public void readCensus() {
 		Workbook wB = null;
 		
+		long t1 = System.currentTimeMillis();
+		
 		try {
 			wB = Workbook.getWorkbook(fichero);
 			
@@ -39,6 +41,7 @@ public class RCensus implements ReadCensus {
 		
 		Sheet censos = wB.getSheet("Censos");
 	
+		
 			
 		for(int i=1;i<censos.getRows();i++){
 			
@@ -55,8 +58,16 @@ public class RCensus implements ReadCensus {
 				
 			
 			}
+			
 					
 		}
+		
+		insert.enviarUsuarios();
+			
+		long t2 = System.currentTimeMillis();
+		
+		System.out.println(t2-t1);
+		
 			
 	}
 	

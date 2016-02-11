@@ -8,7 +8,7 @@ public interface Insert {
 	
 	
 	/**
-	 * Recibe los datos de los usuarios y se los envía a un método del componente DBUpdate
+	 * Recibe los datos de los usuarios y crea objetos User que almacena en una lista
 	 * 
 	 * @param nombre
 	 * @param NIF
@@ -25,5 +25,12 @@ public interface Insert {
 	 * @return
 	 */
 	List<User> getUsuarios();
+
+
+	/**
+	 * Envía a un método del componente DBUpdate los usuarios
+	 */
+	void enviarUsuarios();
+
 
 }
