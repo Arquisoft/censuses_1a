@@ -14,6 +14,8 @@ public class RCensus implements ReadCensus {
 		
 	File fichero;
 	Insert insert;
+	
+	
 
 	public RCensus(String ruta) {
 		fichero = new File(ruta);
