@@ -16,16 +16,18 @@ public class User {
 	private String NIF;
 	private String email;
 	private int codigoMesa;
+	private String contraseña;
 
 	User() {
 
 	}
 
-	public User(String name, String NIF, String email, int codigoMesa) {
+	public User(String name, String NIF, String email, int codigoMesa,String contraseña) {
 		this.setName(name);
 		this.setNIF(NIF);
 		this.email = email;
 		this.setCodigoMesa(codigoMesa);
+		this.setContraseña(contraseña);
 	}
 
 	public String getName() {
@@ -93,6 +95,14 @@ public class User {
 	
 	public Long getId(){
 		return id;
+	}
+
+	public String getContraseña() {
+		return contraseña;
+	}
+
+	public void setContraseña(String contraseña) {
+		this.contraseña = contraseña;
 	}
 
 }

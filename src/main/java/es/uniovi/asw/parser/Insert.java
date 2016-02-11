@@ -14,8 +14,10 @@ public interface Insert {
 	 * @param NIF
 	 * @param email
 	 * @param codigoMesa
+	 * @param contraseña 
 	 */
-	void insertarUsuarios(String nombre,String NIF,String email,String codigoMesa);
+	void insertarUsuarios(String nombre,String NIF,String email,String codigoMesa,
+			String contraseña);
 	
 	
 	/**

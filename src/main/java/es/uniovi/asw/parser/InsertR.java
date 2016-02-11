@@ -12,10 +12,11 @@ public class InsertR implements Insert {
 
 	@Override
 	public void insertarUsuarios(String nombre, String NIF, String email, 
-			String codigoMesa) {
+			String codigoMesa,String contraseña) {
 		
 		Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa);	
-		usuarios.add(new User(nombre,NIF,email,Integer.parseInt(codigoMesa)));
+		usuarios.add(new User(nombre,NIF,email,Integer.parseInt(codigoMesa),
+				contraseña));
 		
 		//Pasar a dbUpdate 
 		
