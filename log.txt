@@ -1,129 +1,48 @@
-Thu Feb 11 00:46:59 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 00:46:59 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 00:46:59 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 00:47:40 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 00:47:40 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 00:47:40 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 00:47:40 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 09:40:29 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 09:40:29 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 09:40:29 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 09:40:29 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 09:40:36 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 09:40:36 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 09:40:36 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 09:40:36 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:18:35 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 11:18:35 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:18:35 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 11:18:35 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:21:07 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 11:21:07 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:21:07 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 11:21:07 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:21:41 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 11:21:41 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:21:41 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 11:21:41 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:36:48 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 11:36:48 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:36:48 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 11:36:48 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:51:40 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 11:51:40 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:51:40 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 11:51:40 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:54:18 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 11:54:18 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 11:54:18 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 11:54:18 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 14:41:46 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 14:41:46 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 14:41:46 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 14:41:46 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 14:43:58 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 14:43:58 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 14:43:58 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 14:43:58 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 14:45:20 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 14:45:20 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 14:45:20 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 14:45:20 CET 2016 - Encontrado campo email vacio
-<<<<<<< Updated upstream
-Thu Feb 11 18:43:51 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 18:43:51 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 18:43:51 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 18:43:51 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 18:59:05 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 18:59:05 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 18:59:05 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 18:59:05 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:10:25 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:10:25 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:10:25 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:10:25 CET 2016 - Encontrado campo email vacio
-<<<<<<< HEAD
-=======
-Thu Feb 11 19:33:55 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:33:55 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:33:55 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:33:55 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:35:05 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:35:05 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:35:05 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:35:05 CET 2016 - Encontrado campo email vacio
->>>>>>> Stashed changes
-Thu Feb 11 19:41:09 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:41:09 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:41:09 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:41:09 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:41:45 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:41:45 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:41:45 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:41:45 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:54:42 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:54:42 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:54:42 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:54:42 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 20:02:45 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 20:02:45 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 20:02:45 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 20:02:45 CET 2016 - Encontrado campo email vacio
-=======
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:40:01 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:40:31 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:46:11 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo código mesa vacio
-Thu Feb 11 19:46:54 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:50:49 CET 2016 - Encontrado campo NIF vacio
-Thu Feb 11 19:50:49 CET 2016 - Encontrado campo email vacio
-Thu Feb 11 19:50:49 CET 2016 - Encontrado campo c�digo mesa vacio
-Thu Feb 11 19:50:49 CET 2016 - Encontrado campo email vacio
->>>>>>> origin/master
+Thu Feb 11 20:06:07 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 20:06:07 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:06:07 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 20:06:07 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:53:30 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 20:53:30 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:53:30 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 20:53:30 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:55:17 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 20:55:17 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:55:17 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 20:55:17 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:58:05 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 20:58:05 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:58:05 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 20:58:05 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:59:54 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 20:59:54 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 20:59:54 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 20:59:54 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:00:30 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:00:30 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:00:30 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:00:30 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:01:55 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:01:55 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:01:55 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:01:55 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:02:18 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:02:18 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:02:18 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:02:18 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:03:39 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:03:39 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:03:39 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:03:39 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:06:23 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:06:23 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:06:23 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:06:23 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:09:52 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:09:52 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:09:52 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:09:52 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:11:47 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:11:47 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:11:47 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:11:47 CET 2016 - Encontrado campo email vacio

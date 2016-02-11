@@ -1,20 +1,19 @@
 package es.uniovi.asw;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.*;
+import org.junit.Test;
 
+import es.uniovi.asw.logica.User;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
-import es.uniovi.asw.logica.User;
 
 
 public class ComprobaCartas {
