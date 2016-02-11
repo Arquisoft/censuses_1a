@@ -28,7 +28,6 @@ public class LoadUsers {
 	}
 
 	void run(String... args) {		
-//		List<User> users = Jpa.getManager().createNamedQuery("User.findAll",User.class).getResultList();
 		Options options = new Options();
 		options.addOption("x", false, "add xls file");
 		System.out.println("Si");

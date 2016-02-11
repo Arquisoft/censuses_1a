@@ -54,3 +54,11 @@ Thu Feb 11 21:32:28 CET 2016 - Encontrado campo NIF vacio
 Thu Feb 11 21:32:28 CET 2016 - Encontrado campo email vacio
 Thu Feb 11 21:32:28 CET 2016 - Encontrado campo código mesa vacio
 Thu Feb 11 21:32:28 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:42:09 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:42:09 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:42:09 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:42:09 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:44:35 CET 2016 - Encontrado campo NIF vacio
+Thu Feb 11 21:44:35 CET 2016 - Encontrado campo email vacio
+Thu Feb 11 21:44:35 CET 2016 - Encontrado campo código mesa vacio
+Thu Feb 11 21:44:35 CET 2016 - Encontrado campo email vacio
