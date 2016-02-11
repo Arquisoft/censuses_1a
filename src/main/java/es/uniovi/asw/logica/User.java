@@ -90,9 +90,9 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", NIF=" + NIF + ", email=" + email + ", codigoMesa=" + codigoMesa
-				+ "]";
+				+ ", contraseña=" + contraseña + "]";
 	}
-	
+
 	public Long getId(){
 		return id;
 	}
