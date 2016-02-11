@@ -1,7 +1,3 @@
 Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
 	Usuario: jorge@gmail.com
-<<<<<<< HEAD
-	Contraseña: tiileGrHrq
-=======
-	Contrase�a: 8wGUlV6mQT
->>>>>>> origin/master
+	Contraseña: BxyWgGHrhT

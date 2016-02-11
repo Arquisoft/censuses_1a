@@ -13,7 +13,7 @@ public class InsertP implements Insert{
 	public void insertarUsuarios(List<User> usuarios) {
 		
 		
-		EntityManager em = Jpa.createEntityManager();
+	/*	EntityManager em = Jpa.createEntityManager();
 		EntityTransaction trx = em.getTransaction();
 		try {
 			trx.begin();
@@ -36,7 +36,7 @@ public class InsertP implements Insert{
 			}
 		}
 
-		
+		*/
 	}
 
 

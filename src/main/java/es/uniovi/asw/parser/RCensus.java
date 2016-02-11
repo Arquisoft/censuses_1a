@@ -27,11 +27,11 @@ public class RCensus implements ReadCensus {
 
 	@Override
 	public void readCensus() {
-		List<User> users = Jpa.createEntityManager().createNamedQuery("User.findAll",User.class).getResultList();
-		System.out.println("Se han leido" + users.size());
-		for (User user : users) {
-			System.out.println(user.toString());
-		}
+	//<User> users = Jpa.createEntityManager().createNamedQuery("User.findAll",User.class).getResultList();
+	//	System.out.println("Se han leido" + users.size());
+	//	for (User user : users) {
+	//		System.out.println(user.toString());
+	//	}
 		Workbook wB = null;
 		
 		long t1 = System.currentTimeMillis();

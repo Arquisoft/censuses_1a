@@ -17,6 +17,7 @@ import org.xml.sax.SAXException;
 
 public class Jpa {
 
+	/*
 	private static EntityManagerFactory emf = null;
 	private static ThreadLocal<EntityManager> emThread = new ThreadLocal<EntityManager>();
 
@@ -57,5 +58,6 @@ public class Jpa {
 			throw new RuntimeException(e1);
 		}
 	}
+	*/
 
 }
