@@ -18,14 +18,14 @@ import es.uniovi.asw.parser.ReadCensus;
 public class LoadUsers {
 	
 	 ReadCensus readCensus = null;
-
-	public static void main(String... args) {
-	
-	
-		LoadUsers runner = new LoadUsers();
-		runner.run(args);
-
-	}
+//
+//	public static void main(String... args) {
+//	
+//	
+//		LoadUsers runner = new LoadUsers();
+//		runner.run(args);
+//
+//	}
 
 	void run(String... args) {		
 //		List<User> users = Jpa.getManager().createNamedQuery("User.findAll",User.class).getResultList();
