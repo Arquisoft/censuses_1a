@@ -13,7 +13,7 @@ public class InsertP implements Insert{
 	public void insertarUsuarios(List<User> usuarios) {
 		
 		
-	/*	EntityManager em = Jpa.createEntityManager();
+		EntityManager em = Jpa.createEntityManager();
 		EntityTransaction trx = em.getTransaction();
 		try {
 			trx.begin();
@@ -29,6 +29,7 @@ public class InsertP implements Insert{
 			trx.commit();
 		} catch (RuntimeException bex) {
 			trx.rollback();
+			System.out.println("Error de las insrciones");
 			throw bex;
 		} finally {
 			if (em.isOpen()) {
@@ -36,7 +37,7 @@ public class InsertP implements Insert{
 			}
 		}
 
-		*/
+		System.out.println("Fin de las insercciones en la BD");
 	}
 
 

@@ -17,7 +17,7 @@ import org.xml.sax.SAXException;
 
 public class Jpa {
 
-	/*
+	
 	private static EntityManagerFactory emf = null;
 	private static ThreadLocal<EntityManager> emThread = new ThreadLocal<EntityManager>();
 
@@ -43,7 +43,7 @@ public class Jpa {
 		try {
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
-			Document doc = db.parse(Jpa.class.getResourceAsStream("persistence.xml"));
+			Document doc = db.parse(Jpa.class.getResourceAsStream("/META-INF/persistence.xml"));
 
 			doc.getDocumentElement().normalize();
 			NodeList nl = doc.getElementsByTagName("persistence-unit");
@@ -58,6 +58,6 @@ public class Jpa {
 			throw new RuntimeException(e1);
 		}
 	}
-	*/
+	
 
 }
