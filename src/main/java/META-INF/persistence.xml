@@ -16,6 +16,7 @@
 			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:hsql://localhost" />
 			<property name="javax.persistence.jdbc.user" value="sa" />
 			<property name="javax.persistence.jdbc.password" value="" />
+			<!-- <property name="hibernate.C3P0.max_size" value="0"/> -->
 
 		</properties>
 	</persistence-unit>

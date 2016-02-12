@@ -36,7 +36,7 @@ public class InsertP implements Insert{
 				em.close();
 			}
 		}
-
+		System.out.println(trx.isActive());
 		System.out.println("Fin de las insercciones en la BD");
 	}
 

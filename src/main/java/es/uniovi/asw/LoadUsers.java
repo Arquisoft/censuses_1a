@@ -55,7 +55,7 @@ public class LoadUsers {
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
-		
+		System.exit(0);
 	
 	}
 }
