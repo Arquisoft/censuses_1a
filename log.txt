@@ -412,6 +412,7 @@ Fri Feb 12 19:28:55 CET 2016 - Encontrado campo nombre vacio
 Fri Feb 12 19:28:55 CET 2016 - Encontrado campo NIF vacio
 Fri Feb 12 19:28:55 CET 2016 - Encontrado campo email vacio
 Fri Feb 12 19:28:55 CET 2016 - Encontrado campo código mesa vacio
+<<<<<<< HEAD
 Fri Feb 12 21:18:55 CET 2016 - Encontrado campo NIF vacio
 Fri Feb 12 21:18:55 CET 2016 - Encontrado campo email vacio
 Fri Feb 12 21:18:55 CET 2016 - Encontrado campo cÃ³digo mesa vacio
@@ -588,3 +589,17 @@ Fri Feb 12 21:47:33 CET 2016 - Encontrado campo NIF vacio
 Fri Feb 12 21:47:33 CET 2016 - Encontrado campo email vacio
 Fri Feb 12 21:47:33 CET 2016 - Encontrado campo cÃ³digo mesa vacio
 Fri Feb 12 21:47:33 CET 2016 - Encontrado campo email vacio
+=======
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo nombre vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo NIF vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo email vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo código mesa vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo nombre vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo NIF vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo email vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo código mesa vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo nombre vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo NIF vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo email vacio
+Fri Feb 12 20:21:45 CET 2016 - Encontrado campo código mesa vacio
+>>>>>>> origin/master
