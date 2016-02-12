@@ -12,6 +12,7 @@ import java.util.List;
 import org.junit.Test;
 
 import es.uniovi.asw.logica.User;
+import es.uniovi.asw.parser.GeneradorCartasTXT;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
@@ -23,7 +24,7 @@ public class ComprobaCartas {
 	
 	public void rellenar() throws IOException
 	{
-		ReadCensus r=new RCensus("src/test/resources/Censos.xls");
+		ReadCensus r=new RCensus("src/test/resources/Censos.xls",new GeneradorCartasTXT());
 		r.readCensus();
 		excel=r.getUsuarios();
 		for(User u:excel)

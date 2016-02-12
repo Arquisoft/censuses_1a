@@ -19,10 +19,10 @@ public class RCensus implements ReadCensus {
 	
 	
 
-	public RCensus(String ruta) {
+	public RCensus(String ruta, GeneradorCartas generadorCartas) {
 		fichero = new File(ruta);
 		insert = new InsertR();
-		generador = new GeneradorCartasTXT();
+		generador = generadorCartas;
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class RCensus implements ReadCensus {
 	//	}
 		Workbook wB = null;
 		
-		long t1 = System.currentTimeMillis();
+		//long t1 = System.currentTimeMillis();
 		
 		try {
 			wB = Workbook.getWorkbook(fichero);
@@ -70,9 +70,9 @@ public class RCensus implements ReadCensus {
 		
 		insert.enviarUsuarios();
 			
-		long t2 = System.currentTimeMillis();
+		//long t2 = System.currentTimeMillis();
 		
-		System.out.println(t2-t1);
+		//System.out.println(t2-t1);
 		
 			
 	}
