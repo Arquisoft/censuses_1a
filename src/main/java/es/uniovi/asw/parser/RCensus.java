@@ -27,11 +27,6 @@ public class RCensus implements ReadCensus {
 
 	@Override
 	public void readCensus() {
-	//<User> users = Jpa.createEntityManager().createNamedQuery("User.findAll",User.class).getResultList();
-	//	System.out.println("Se han leido" + users.size());
-	//	for (User user : users) {
-	//		System.out.println(user.toString());
-	//	}
 		Workbook wB = null;
 		
 		//long t1 = System.currentTimeMillis();
@@ -50,15 +45,12 @@ public class RCensus implements ReadCensus {
 		
 			
 		for(int i=1;i<censos.getRows();i++){
-			
 			String nombre = censos.getCell(0,i).getContents();
 			String NIF = censos.getCell(1,i).getContents();
 			String email = censos.getCell(2,i).getContents();
 			String codigoMesa = censos.getCell(3,i).getContents();
 
-			
 			if(Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa)){
-			
 				String contraseña = generador.generarCarta(nombre, email);
 				insert.insertarUsuarios(nombre, NIF, email, codigoMesa,contraseña);
 				

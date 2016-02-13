@@ -31,8 +31,8 @@ public class InsertR implements Insert {
 	public void enviarUsuarios() {
 		
 		if(getUsuarios().size()>0){
-		//	es.uniovi.asw.dbUpdate.Insert insert = new InsertP();	
-		//	insert.insertarUsuarios(usuarios);
+			es.uniovi.asw.dbUpdate.Insert insert = new InsertP();	
+			insert.insertarUsuarios(usuarios);
 		}
 		
 	}

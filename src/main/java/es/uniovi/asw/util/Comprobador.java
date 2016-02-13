@@ -41,7 +41,7 @@ public class Comprobador {
 		
 		}catch(NumberFormatException e){
 			
-			//Añadir a fichero Log problema
+			report.log("El codigo de mesa debe ser numérico");
 			
 		}
 		
