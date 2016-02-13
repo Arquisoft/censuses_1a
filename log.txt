@@ -787,3 +787,11 @@ Sat Feb 13 15:43:01 CET 2016 - Encontrado campo NIF vacio
 Sat Feb 13 15:43:01 CET 2016 - Encontrado campo email vacio
 Sat Feb 13 15:43:01 CET 2016 - Encontrado campo código mesa vacio
 Sat Feb 13 15:43:01 CET 2016 - Encontrado campo email vacio
+Sat Feb 13 15:53:31 CET 2016 - Encontrado campo NIF vacio
+Sat Feb 13 15:53:31 CET 2016 - Encontrado campo email vacio
+Sat Feb 13 15:53:31 CET 2016 - Encontrado campo código mesa vacio
+Sat Feb 13 15:53:31 CET 2016 - Encontrado campo email vacio
+Sat Feb 13 15:59:00 CET 2016 - Encontrado campo NIF vacio
+Sat Feb 13 15:59:00 CET 2016 - Encontrado campo email vacio
+Sat Feb 13 15:59:00 CET 2016 - Encontrado campo código mesa vacio
+Sat Feb 13 15:59:00 CET 2016 - Encontrado campo email vacio
