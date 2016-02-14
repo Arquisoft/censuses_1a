@@ -37,7 +37,6 @@ public class ComprobaCartas {
 		}
 	}
 	
-	
 
 	@Test
 	public void testUsuario() throws IOException {

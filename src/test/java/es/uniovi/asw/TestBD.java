@@ -12,6 +12,7 @@ import org.junit.Test;
 import es.uniovi.asw.dbUpdate.Jpa;
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.parser.GeneradorCartasTXT;
+import es.uniovi.asw.parser.ParserXLS;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
@@ -24,7 +25,7 @@ public class TestBD {
 	public void inicializar()
 	{
 		e=Jpa.createEntityManager();
-		ReadCensus readCensus = new RCensus("Censos.xls",new GeneradorCartasTXT());
+		ReadCensus readCensus = new RCensus("Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
 		readCensus.readCensus();
 		 excel = readCensus.getUsuarios();
 		db=e.createNamedQuery("User.findAll").getResultList();
