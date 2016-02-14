@@ -11,7 +11,7 @@ public interface Insert {
 	 * 
 	 * @param usuario
 	 */
-	void insertarUsuarios(List<User> usuarios);
+	boolean insertarUsuarios(List<User> usuarios);
 	
 
 }

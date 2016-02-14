@@ -29,10 +29,10 @@ public class InsertR implements Insert {
 
 	@Override
 	public void enviarUsuarios() {
-		
-		if(getUsuarios().size()>0){
+		boolean result=true;
+		if(getUsuarios().size()>0 && result){
 			es.uniovi.asw.dbUpdate.Insert insert = new InsertP();	
-			insert.insertarUsuarios(usuarios);
+			result=insert.insertarUsuarios(usuarios);
 		}
 		
 	}
