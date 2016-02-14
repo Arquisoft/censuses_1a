@@ -25,6 +25,7 @@ public class GeneradorCartasTXT implements GeneradorCartas{
 					+ " información:\n\tUsuario: "+email+"\n\tContraseña: "
 					+contraseña);
 			
+			
 			bW.close();
 			
 		} catch (IOException e) {

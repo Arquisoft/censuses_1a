@@ -31,6 +31,8 @@ public class ComprobaCartas {
 		{
 			cartas.add(new File("cartas/"+u.getEmail()+".txt"));
 			
+			
+		
 		}
 	}
 	
