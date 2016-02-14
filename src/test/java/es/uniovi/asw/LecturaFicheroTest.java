@@ -20,7 +20,7 @@ public class LecturaFicheroTest {
 		//  Este metodo accede a la BD, asi que no subir descomentado, y que sino da error
 		 
 		
-		ReadCensus readCensus = new RCensus("Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
+/*		ReadCensus readCensus = new RCensus("Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
 		readCensus.readCensus();
 		List<User> usuarios = readCensus.getUsuarios();
 		
@@ -41,7 +41,7 @@ public class LecturaFicheroTest {
 		assertEquals(usuario2.getEmail(), "miguel@gmail.com");
 		
 		assertEquals(usuario1.getCodigoMesa(), 1);
-		assertEquals(usuario2.getCodigoMesa(), 2);
+		assertEquals(usuario2.getCodigoMesa(), 2);*/
 				
 	}
 
