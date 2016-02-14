@@ -1,6 +1,8 @@
 package es.uniovi.asw;
 
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 import org.apache.commons.cli.CommandLine;
@@ -13,6 +15,10 @@ import org.apache.commons.cli.ParseException;
 import es.uniovi.asw.factorias.CartasFactory;
 import es.uniovi.asw.factorias.CartasPDFFactory;
 import es.uniovi.asw.factorias.CartasTXTFactory;
+import es.uniovi.asw.factorias.ParserFactory;
+import es.uniovi.asw.factorias.ParserXLSFactory;
+import es.uniovi.asw.parser.GeneradorCartas;
+import es.uniovi.asw.parser.Parser;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
@@ -26,11 +32,17 @@ public class LoadUsers {
 	
 	 ReadCensus readCensus = null;
 	 
-	 static Map<String,CartasFactory> factorias = new HashMap<String,CartasFactory>();
+	 static Map<String,CartasFactory> factoriasCartas = new HashMap<String,CartasFactory>();
+	 static Map<String,ParserFactory> factoriasFicheroEntrada = new HashMap<String,ParserFactory>();
+	 
+	 static List<String> opcionesCartasSalida = new LinkedList<String>();
+	 static List<String> opcionesFicherosEntrada = new LinkedList<String>();
+
 
 	public static void main(String... args) {
 		
 		cargarFactorias();
+		cargarOpciones();
 		LoadUsers runner = new LoadUsers();
 		runner.run(args);
 
@@ -43,24 +55,38 @@ public class LoadUsers {
 		options.addOption("t", false, "generates txt files");
 		options.addOption("h", false, "help");
 		
-		CommandLineParser parser = new DefaultParser();
+		CommandLineParser cLParser = new DefaultParser();
 		CommandLine cmd = null;
 		
 		try {
 			
-			cmd = parser.parse(options, args);
+			cmd = cLParser.parse(options, args);
 
 			if(!cmd.hasOption("h")){
 			
-			//Si se indicó la opción x la lectura de datos se hará sobre un 
-			//fichero excel
-			if(cmd.hasOption("x") && (cmd.hasOption("p") || cmd.hasOption("t"))) {
+			//Se comprueba si se inserto una opción para el fichero de entrada
+			//y otra para el de salida
+			if(opcionFicheroEntrada(cmd) && opcionCartas(cmd)) {
 				
-				for(Option opt:cmd.getOptions())
-					if(!opcionFicheroEntrada(opt.getOpt()))
-						readCensus = new RCensus(args[0]
-								,factorias.get(opt.getOpt()).crearGeneradorCartas());
-			}
+				GeneradorCartas generador = null;
+				Parser parser = null;
+					
+				//Obtiene parser de ficheros de entrada especificado en las opciones
+				for(Option opt: cmd.getOptions())	
+					if(opcionesFicherosEntrada.contains(opt.getOpt()))
+						parser = factoriasFicheroEntrada.get(opt.getOpt()).crearParser();
+								
+				
+				//Obtiene generador de cartas especificado en las opciones
+				for(Option opt: cmd.getOptions())	
+					if(opcionesCartasSalida.contains(opt.getOpt()))
+						generador = factoriasCartas.get(opt.getOpt()).crearGeneradorCartas();
+				
+				
+				readCensus = new RCensus(args[0],generador,parser);
+
+			}			
+			
 			else {
 			    System.out.println("Opciones no válidas, puedes utilizar"
 			    		+ " la opción -h para apreder a utilizar el programa");
@@ -122,18 +148,70 @@ public class LoadUsers {
 	
 	
 	private static void cargarFactorias() {
-		factorias.put("t",new CartasTXTFactory());
-		factorias.put("p",new CartasPDFFactory());
+		
+		//Factorias parsers
+		factoriasFicheroEntrada.put("x", new ParserXLSFactory());
+		
+		//Factorias generadores cartas
+		factoriasCartas.put("t",new CartasTXTFactory());
+		factoriasCartas.put("p",new CartasPDFFactory());
 		
 	}
 	
-	public boolean opcionFicheroEntrada(String option){
+
+	/**
+	 * Guarda en colecciones las opciones disponibles
+	 * 
+	 */
+	private static void cargarOpciones() {
+		//Opciones de ficheros entrada
+		opcionesFicherosEntrada.add("x");
 		
-		if(option.equals("x")){
-			return true;
-		}
-			
+		
+		//Opciones de ficheros salida
+		opcionesCartasSalida.add("p");
+		opcionesCartasSalida.add("t");
+		
+		
+		
+	}
+
+	/**
+	 * Comprueba si alguna de las opciones es para describir el 
+	 * fichero de entrada
+	 * @param cmd
+	 * @return
+	 */
+	public boolean opcionFicheroEntrada(CommandLine cmd){
+		
+		for(Option option: cmd.getOptions()){
+			if(opcionesFicherosEntrada.contains(option.getOpt())){
+				return true;
+			}
+		}		
+		
 		return false;
+		
+		
+	}
+	
+	/**
+	 * Comprueba si alguna de las opciones es para describir el 
+	 * formato de las cartas
+	 * @param cmd
+	 * @return
+	 */
+	public boolean opcionCartas(CommandLine cmd){
+		
+		for(Option option: cmd.getOptions()){
+			if(opcionesCartasSalida.contains(option.getOpt())){
+				return true;
+			}
+		}		
+		
+		return false;
+		
+		
 	}
 	
 	
