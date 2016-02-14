@@ -52,7 +52,7 @@ public class RCensus implements ReadCensus {
 			}
 					
 			
-			//insert.enviarUsuarios();
+			insert.enviarUsuarios();
 			
 		}
 					
