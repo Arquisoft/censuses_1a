@@ -24,7 +24,14 @@ public class InsertP implements Insert{
 		try {
 			
 			for(User usuario:usuarios)
-				em.persist(usuario);
+			{
+				List<User> users=Jpa.getManager().createNamedQuery("User.findByNameDni")
+						.setParameter(1,usuario.getNIF()).setParameter(2,usuario.getName())
+						.getResultList();
+				
+				if(users.size()==0)
+					em.persist(usuario);
+			}
 			
 			trx.commit();
 		} catch (RuntimeException bex) {

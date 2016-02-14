@@ -8,6 +8,9 @@
 <named-query name="User.findAll">
 <query>select u from User u</query>
 </named-query>
+<named-query name="User.findByNameDni">
+<query>select u from User u where u.NIF=?1 and u.name=?2</query>
+</named-query>
 
 	<!-- <named-query name="findItemsOnSaleByCategoryId"> <query> <![CDATA[ 
 		select i from Item i join i.categories c where c.id = ?2 and i.startDate 

@@ -1,7 +1,3 @@
 Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
 	Usuario: Rober@gmail.com
-<<<<<<< HEAD
-	Contraseña: xR2vttt69L
-=======
-	Contrase�a: bxlLuokArW
->>>>>>> origin/master
+	Contraseña: ruVyTS9Ae9

@@ -1,7 +1,3 @@
 Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
 	Usuario: Marta@gmail.com
-<<<<<<< HEAD
-	Contraseña: 3HO86S36Xt
-=======
-	Contrase�a: gd2SOELcrQ
->>>>>>> origin/master
+	Contraseña: zx9SiEPpTo
