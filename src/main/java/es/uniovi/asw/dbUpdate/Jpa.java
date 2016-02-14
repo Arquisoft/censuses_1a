@@ -31,7 +31,7 @@ public class Jpa {
 		return emThread.get();
 	}
 
-	private static EntityManagerFactory getEmf() {
+	public static EntityManagerFactory getEmf() {
 		if (emf == null) {
 			String persistenceUnitName = loadPersistentUnitName();
 			emf = Persistence.createEntityManagerFactory(persistenceUnitName);
