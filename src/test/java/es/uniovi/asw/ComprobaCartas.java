@@ -50,6 +50,7 @@ public class ComprobaCartas {
 				trozos.add(br.readLine());
 			
 			assertTrue(trozos.get(1).contains(excel.get(i).getEmail()));
+			br.close();
 				
 		}
 		
@@ -67,6 +68,7 @@ public class ComprobaCartas {
 				trozos.add(br.readLine());
 			
 			assertTrue(trozos.get(2).contains(excel.get(i).getContraseña()));
+			br.close();
 				
 		}
 		

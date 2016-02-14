@@ -13,6 +13,7 @@ import es.uniovi.asw.reportWriter.WriteReport;
 
 public class InsertP implements Insert {
 
+	@SuppressWarnings("unchecked")
 	public void insertarUsuarios(List<User> usuarios) {
 
 		WriteReport report = new WreportP();

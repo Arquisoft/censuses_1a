@@ -4,12 +4,10 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import es.uniovi.asw.dbUpdate.Jpa;
 import es.uniovi.asw.dbUpdate.Read;
 import es.uniovi.asw.dbUpdate.ReadP;
 import es.uniovi.asw.logica.User;
@@ -27,12 +25,10 @@ public class TestBD {
 	public void inicializar()
 	{
 		Read read = new ReadP();
-//		e=Jpa.createEntityManager();
 		ReadCensus readCensus = new RCensus("Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
 		readCensus.readCensus();
 		excel = readCensus.getUsuarios();
 		db = read.getUsuariosBD();
-//		db=e.createNamedQuery("User.findAll").getResultList();
 	}
 
 	@Test

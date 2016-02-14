@@ -12,6 +12,7 @@ import es.uniovi.asw.reportWriter.WriteReport;
 
 public class ReadP implements Read{
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<User> getUsuariosBD() {
 		List<User> usuariosBD = null;
