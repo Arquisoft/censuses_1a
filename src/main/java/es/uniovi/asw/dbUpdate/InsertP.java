@@ -8,15 +8,14 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.PersistenceException;
 
 import es.uniovi.asw.logica.User;
-import es.uniovi.asw.reportWriter.WreportP;
 import es.uniovi.asw.reportWriter.WriteReport;
 
 public class InsertP implements Insert {
 
-	@SuppressWarnings("unchecked")
+	@SuppressWarnings({ "unchecked", "finally" })
 	public boolean insertarUsuarios(List<User> usuarios) {
 		boolean result=false;
-		WriteReport report = new WreportP();
+		WriteReport report = new WreportR();
 
 		EntityManagerFactory emf = null;
 		EntityManager em = null;

@@ -7,7 +7,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.PersistenceException;
 
 import es.uniovi.asw.logica.User;
-import es.uniovi.asw.reportWriter.WreportP;
 import es.uniovi.asw.reportWriter.WriteReport;
 
 public class ReadP implements Read{
@@ -16,7 +15,7 @@ public class ReadP implements Read{
 	@Override
 	public List<User> getUsuariosBD() {
 		List<User> usuariosBD = null;
-		WriteReport report = new WreportP();
+		WriteReport report = new WreportR();
 
 		EntityManagerFactory emf = null;
 		EntityManager em = null;

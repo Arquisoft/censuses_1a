@@ -33,8 +33,10 @@ public class TestBD {
 
 	@Test
 	public void testNumeroDatos() {
-		if (db != null)
+		//Esto significa que la BD esta encendida
+		if (db != null){
 			assertEquals(excel.size(), db.size());
+		}
 	}
 
 	@Test
