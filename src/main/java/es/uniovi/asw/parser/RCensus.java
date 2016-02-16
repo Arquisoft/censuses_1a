@@ -42,7 +42,7 @@ public class RCensus implements ReadCensus {
 				email = user.get("email");
 				codigoMesa = user.get("codigoMesa");
 				
-				if(Comprobador.comprobacionDatos(nombre,NIF,email,codigoMesa)){
+				if(Comprobador.comprobacionDatosParser(nombre,NIF,email,codigoMesa)){
 					String contraseña = generador.generarCarta(nombre, email);
 					insert.insertarUsuarios(nombre, NIF, email, codigoMesa,contraseña);
 					

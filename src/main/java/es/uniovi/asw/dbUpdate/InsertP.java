@@ -35,6 +35,8 @@ public class InsertP implements Insert {
 				if (users.size() == 0)
 					em.persist(usuario);
 			}
+			
+			
 
 			trx.commit();
 			result=true;

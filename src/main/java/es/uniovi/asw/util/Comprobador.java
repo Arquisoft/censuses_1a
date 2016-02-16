@@ -1,6 +1,9 @@
 package es.uniovi.asw.util;
 
 
+import java.util.List;
+
+import es.uniovi.asw.logica.User;
 import es.uniovi.asw.reportWriter.WreportP;
 import es.uniovi.asw.reportWriter.WriteReport;
 
@@ -8,7 +11,7 @@ public class Comprobador {
 	
 	static WriteReport report = new WreportP();
 	
-	public static boolean comprobacionDatos(String nombre,String NIF,String email,
+	public static boolean comprobacionDatosParser(String nombre,String NIF,String email,
 			String codigoMesa){
 		
 		if(nombre.isEmpty() || NIF.isEmpty() || email.isEmpty() ||
@@ -47,6 +50,16 @@ public class Comprobador {
 		
 		
 		return true;
+	}
+	
+	public static List<User> comprobacionDatosDBUpdate(List<User> usuarios){
+		
+		//Pablo añade comprobación usuarios con mismo NIF. 
+		//Los dos que tienen mismo NIF se van fuera
+		
+		
+		return null;
+		
 	}
 
 }
