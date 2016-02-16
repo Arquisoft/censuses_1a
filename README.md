@@ -5,7 +5,6 @@ Este es el repositorio de la práctica Censuses
 
 Autores:
 
-* Daniel Gonzalez
 * Carlos Villa
 * Jairo Montes
 * Pablo Blanco
