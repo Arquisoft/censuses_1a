@@ -7,12 +7,11 @@ import es.uniovi.asw.dbUpdate.InsertP;
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.util.Comprobador;
 
-public class InsertR implements Insert {
+public class InsertR {
 	
 	List<User> usuarios = new LinkedList<User>();
 
 
-	@Override
 	public void insertarUsuarios(String nombre, String NIF, String email, 
 			String codigoMesa,String contraseña) {
 		
@@ -27,7 +26,7 @@ public class InsertR implements Insert {
 		return usuarios;
 	}
 
-	@Override
+
 	public void enviarUsuarios() {
 		boolean result=true;
 		if(getUsuarios().size()>0 && result){

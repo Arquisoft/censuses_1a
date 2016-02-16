@@ -26,7 +26,7 @@ public class LecturaFicheroTest {
 		
 		//Existen 4 entradas de usuarios en el xls pero solo 2 tiene todos
 		//los campos obligatorios
-		assertEquals(usuarios.size(), 9);
+		assertEquals(usuarios.size(), 10);
 		
 		User usuario1 = usuarios.get(0);
 		User usuario2 = usuarios.get(1);

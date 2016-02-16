@@ -10,7 +10,7 @@ import es.uniovi.asw.util.Comprobador;
 public class RCensus implements ReadCensus {
 		
 	File fichero;
-	Insert insert;
+	InsertR insert;
 	
 	Parser parser;
 	GeneradorCartas generador;
