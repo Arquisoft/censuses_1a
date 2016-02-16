@@ -17,10 +17,10 @@ import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = 
-{ "classpath:applicationContext.xml" })
-@Transactional
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@ContextConfiguration(locations = 
+//{ "classpath:applicationContext.xml" })
+//@Transactional
 public class LecturaFicheroTest {
 	
 	@Test

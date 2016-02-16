@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,19 +28,20 @@ public class TestBD {
 		readCensus.readCensus();
 		excel = readCensus.getUsuarios();
 		db = read.getUsuariosBD();
+		System.out.println();
 	}
 
 	@Test
 	public void testNumeroDatos() {
 		//Esto significa que la BD esta encendida
-
+		if (db != null){
 			assertEquals(excel.size(), db.size());
-		
+		}
 	}
 
 	@Test
 	public void coincidenciaDatosExcelDB() {
-	
+		if (db != null) {
 
 			for (int i = 1; i < excel.size(); i++) {
 				for (int j = 0; j < db.size(); j++) {
@@ -54,12 +54,7 @@ public class TestBD {
 					}
 				}
 			}
-		
-	}
-	
-	@After
-	public void finalizar(){
-		
+		}
 	}
 
 }
