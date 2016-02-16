@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -28,7 +29,6 @@ public class TestBD {
 		readCensus.readCensus();
 		excel = readCensus.getUsuarios();
 		db = read.getUsuariosBD();
-		System.out.println();
 	}
 
 	@Test
@@ -55,6 +55,11 @@ public class TestBD {
 				}
 			}
 		}
+	}
+	
+	@After
+	public void finalizar(){
+		
 	}
 
 }
