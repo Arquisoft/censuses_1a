@@ -7,7 +7,7 @@
 .classpath
 .settings/*
 /target
-/cartas/*
+/cartas
 
 .metadata
 bin/
