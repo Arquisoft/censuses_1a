@@ -3,6 +3,7 @@ package es.uniovi.asw.parser;
 import java.util.LinkedList;
 import java.util.List;
 
+import es.uniovi.asw.dbUpdate.Insert;
 import es.uniovi.asw.dbUpdate.InsertP;
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.util.Comprobador;
@@ -30,7 +31,7 @@ public class InsertR {
 	public void enviarUsuarios() {
 		boolean result=true;
 		if(getUsuarios().size()>0 && result){
-			es.uniovi.asw.dbUpdate.Insert insert = new InsertP();	
+			Insert insert = new InsertP();	
 			result=insert.insertarUsuarios(usuarios);
 		}
 		

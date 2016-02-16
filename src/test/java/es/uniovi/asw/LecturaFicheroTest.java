@@ -5,6 +5,10 @@ import static org.junit.Assert.assertEquals;
 import java.util.List;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.parser.GeneradorCartasTXT;
@@ -12,6 +16,11 @@ import es.uniovi.asw.parser.ParserXLS;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = 
+{ "classpath:applicationContext.xml" })
+@Transactional
 public class LecturaFicheroTest {
 	
 	@Test

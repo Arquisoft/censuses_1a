@@ -34,14 +34,14 @@ public class TestBD {
 	@Test
 	public void testNumeroDatos() {
 		//Esto significa que la BD esta encendida
-		if (db != null){
+
 			assertEquals(excel.size(), db.size());
-		}
+		
 	}
 
 	@Test
 	public void coincidenciaDatosExcelDB() {
-		if (db != null) {
+	
 
 			for (int i = 1; i < excel.size(); i++) {
 				for (int j = 0; j < db.size(); j++) {
@@ -54,7 +54,7 @@ public class TestBD {
 					}
 				}
 			}
-		}
+		
 	}
 	
 	@After
