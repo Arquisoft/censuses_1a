@@ -53,5 +53,7 @@ public class LecturaFicheroTest {
 		assertEquals(usuario2.getCodigoMesa(), 2);
 				
 	}
+	
+
 
 }

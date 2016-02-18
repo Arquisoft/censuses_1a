@@ -17,7 +17,6 @@ import es.uniovi.asw.parser.ReadCensus;
 
 public class TestBD {
 
-	
 	List<User> excel = null;
 	List<User> db = null;
 
@@ -33,28 +32,25 @@ public class TestBD {
 
 	@Test
 	public void testNumeroDatos() {
-		//Esto significa que la BD esta encendida
-		if (db != null){
-			assertEquals(excel.size(), db.size());
-		}
+		// Esto significa que la BD esta encendida
+		assertEquals(excel.size(), db.size());
+
 	}
 
-	@Test
-	public void coincidenciaDatosExcelDB() {
-		if (db != null) {
-
-			for (int i = 1; i < excel.size(); i++) {
-				for (int j = 0; j < db.size(); j++) {
-					if (excel.get(i).getNIF().equals(db.get(j).getNIF())
-							&& excel.get(i).getName().equals(db.get(j).getName())) {
-						assertEquals(excel.get(i).getName(), db.get(j).getName());
-						assertEquals(excel.get(i).getNIF(), db.get(j).getNIF());
-						assertEquals(excel.get(i).getEmail(), db.get(j).getEmail());
-						assertEquals(excel.get(i).getCodigoMesa(), db.get(j).getCodigoMesa());
-					}
-				}
-			}
-		}
-	}
+//	@Test
+//	public void coincidenciaDatosExcelDB() {
+//
+//		for (int i = 1; i < excel.size(); i++) {
+//			for (int j = 0; j < db.size(); j++) {
+//
+//					assertEquals(excel.get(i).getName(), db.get(j).getName());
+//					assertEquals(excel.get(i).getNIF(), db.get(j).getNIF());
+//					assertEquals(excel.get(i).getEmail(), db.get(j).getEmail());
+//					assertEquals(excel.get(i).getCodigoMesa(), db.get(j).getCodigoMesa());
+//				
+//			}
+//		}
+//
+//	}
 
 }

@@ -101,8 +101,6 @@
 			<version>1.9.2.RELEASE</version>
 		</dependency>
 
-
-
 		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>

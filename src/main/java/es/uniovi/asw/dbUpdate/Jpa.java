@@ -43,6 +43,7 @@ public class Jpa {
 		try {
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
+ 
 			Document doc = db.parse(Jpa.class.getResourceAsStream("/META-INF/persistence.xml"));
 
 			doc.getDocumentElement().normalize();
