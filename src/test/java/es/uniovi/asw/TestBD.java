@@ -23,7 +23,8 @@ public class TestBD {
 	@Before
 	public void inicializar() {
 		Read read = new ReadP();
-		ReadCensus readCensus = new RCensus("Censos.xls", new GeneradorCartasTXT(), new ParserXLS());
+		ReadCensus readCensus = new RCensus("Censos.xls",
+				new GeneradorCartasTXT(), new ParserXLS());
 		readCensus.readCensus();
 		excel = readCensus.getUsuarios();
 		db = read.getUsuariosBD();
@@ -37,20 +38,13 @@ public class TestBD {
 
 	}
 
-//	@Test
-//	public void coincidenciaDatosExcelDB() {
-//
-//		for (int i = 1; i < excel.size(); i++) {
-//			for (int j = 0; j < db.size(); j++) {
-//
-//					assertEquals(excel.get(i).getName(), db.get(j).getName());
-//					assertEquals(excel.get(i).getNIF(), db.get(j).getNIF());
-//					assertEquals(excel.get(i).getEmail(), db.get(j).getEmail());
-//					assertEquals(excel.get(i).getCodigoMesa(), db.get(j).getCodigoMesa());
-//				
-//			}
-//		}
-//
-//	}
+	@Test
+	public void coincidenciaDatosExcelDB() {
+		//comprueba que exista los mismos datos en el excel que en la base de datos
+		for (int i = 0; i < excel.size(); i++) {
+			assertTrue(db.contains(excel.get(i)));
+		}
+
+	}
 
 }
