@@ -5,10 +5,6 @@ import static org.junit.Assert.assertEquals;
 import java.util.List;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.transaction.annotation.Transactional;
 
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.parser.GeneradorCartasTXT;
@@ -51,7 +47,8 @@ public class LecturaFicheroTest {
 		
 		assertEquals(usuario1.getCodigoMesa(), 1);
 		assertEquals(usuario2.getCodigoMesa(), 2);
-				
+
+
 	}
 	
 

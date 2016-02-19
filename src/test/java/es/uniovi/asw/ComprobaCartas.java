@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import es.uniovi.asw.logica.User;
@@ -23,6 +24,7 @@ public class ComprobaCartas {
 	List<User>excel=null;
 	List<File>cartas=new ArrayList<File>();
 	
+	@Before
 	public void rellenar() throws IOException
 	{
 		ReadCensus r=new RCensus("src/test/resources/Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
@@ -40,7 +42,7 @@ public class ComprobaCartas {
 
 	@Test
 	public void testUsuario() throws IOException {
-		rellenar();
+
 		for(int i=0;i<cartas.size();i++)
 		{
 			FileReader fr=new FileReader(cartas.get(i));
@@ -58,7 +60,7 @@ public class ComprobaCartas {
 	
 	@Test
 	public void testContraseña() throws IOException {
-		rellenar();
+	
 		for(int i=0;i<cartas.size();i++)
 		{
 			FileReader fr=new FileReader(cartas.get(i));
