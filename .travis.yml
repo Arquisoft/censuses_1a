@@ -11,8 +11,7 @@ notifications:
 services:
   - mysql
 
-before_script:
-    - "./travis-ci-setup -h127.0.0.1 -utravis"
-    - make
+before_install:
+    - mysql -u root -e 'create database TUSERS;'
 
 sudo: required
