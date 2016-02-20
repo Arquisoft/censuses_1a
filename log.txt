@@ -5614,3 +5614,11 @@ Sat Feb 20 11:17:05 CET 2016 - Encontrado campo email vacio
 Sat Feb 20 11:17:05 CET 2016 - Encontrado campo código mesa vacio
 Sat Feb 20 11:17:05 CET 2016 - No se ha podido conectar con la base de datos
 Sat Feb 20 11:17:05 CET 2016 - No se ha podido conectar con la base de datos
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo nombre vacio
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo NIF vacio
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo email vacio
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo código mesa vacio
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo nombre vacio
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo NIF vacio
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo email vacio
+Sat Feb 20 12:35:52 CET 2016 - Encontrado campo código mesa vacio

@@ -43,6 +43,7 @@ public class InsertP implements Insert {
 		} catch (PersistenceException e) {
 			System.out.println("No se ha podido conectar con la base de datos");
 			report.log("No se ha podido conectar con la base de datos");
+			e.printStackTrace();
 			
 		}
 		catch (RuntimeException bex) {
