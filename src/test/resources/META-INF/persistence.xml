@@ -19,22 +19,35 @@
 			<property name="javax.persistence.jdbc.user" value="sa" />
 			<property name="javax.persistence.jdbc.password" value="" />
 				
-		-->
+			-->		
 					
-			<!-- H2 -->
+			<!-- H2
 		
 			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:test;DB_CLOSE_DELAY=-1"/>
 			<property name="javax.persistence.jdbc.user" value="sa" />
 			<property name="javax.persistence.jdbc.password" value="" />
 			
+			 -->
+				<!--	MySql 	-->		
 			
+		
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql:loadbalance://localhost:3306" />
+			<property name="javax.persistence.jdbc.user" value="travis" />
+			<property name="javax.persistence.jdbc.password" value="" />
+				
+		
+	
+			
+	
 			<!-- <property name="hibernate.C3P0.max_size" value="0"/> -->
 
-	<!--<property name="configLocation" value="classpath:hibernate.cfg.xml" />-->
+	<!--<property name="configLocation" value="classpath:hibernate.cfg.xml" /> -->
 
 
 		</properties>
 	</persistence-unit>
+	
 
 </persistence>
