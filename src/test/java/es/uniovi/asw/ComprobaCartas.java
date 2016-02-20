@@ -24,7 +24,7 @@ public class ComprobaCartas {
 	List<User>excel=null;
 	List<File>cartas=new ArrayList<File>();
 	
-	//@Before
+	@Before
 	public void rellenar() throws IOException
 	{
 		ReadCensus r=new RCensus("src/test/resources/Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
@@ -40,7 +40,7 @@ public class ComprobaCartas {
 	}
 	
 
-	//@Test
+	@Test
 	public void testUsuario() throws IOException {
 
 		for(int i=0;i<cartas.size();i++)
@@ -58,7 +58,7 @@ public class ComprobaCartas {
 		
 	}
 	
-	//@Test
+	@Test
 	public void testContraseña() throws IOException {
 	
 		for(int i=0;i<cartas.size();i++)

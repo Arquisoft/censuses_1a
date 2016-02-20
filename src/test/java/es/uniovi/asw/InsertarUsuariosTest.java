@@ -1,6 +1,11 @@
 package es.uniovi.asw;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 import org.junit.Before;
@@ -17,7 +22,7 @@ public class InsertarUsuariosTest {
 	
 	List<User>usuarios=null;
 	
-	//@Before
+	@Before
 	public void insertarUsuarios() throws IOException
 	{
 				
@@ -31,13 +36,13 @@ public class InsertarUsuariosTest {
 	}
 	
 
-	//@Test
-	public void testUsuarios() throws IOException {
-		
+	@Test
+	public void testUsuarios() throws IOException, SQLException {
+		 
 		
 	}
 	
-	//@Test
+	@Test
 	public void testContraseña() throws IOException {
 	
 	
