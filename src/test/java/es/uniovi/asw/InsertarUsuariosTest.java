@@ -2,16 +2,9 @@ package es.uniovi.asw;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Properties;
-
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.persistence.Persistence;
 
 import org.junit.Before;
 import org.junit.Test;
-
 
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.parser.GeneradorCartasTXT;
@@ -41,7 +34,6 @@ public class InsertarUsuariosTest {
 	@Test
 	public void testUsuarios() throws IOException {
 		
-		ConexionBDD.getConexion().obtenerUsuarios();		
 		
 	}
 	
