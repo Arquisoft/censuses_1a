@@ -41,7 +41,7 @@ public class InsertarUsuariosTest {
 	@Test
 	public void testUsuarios() throws IOException {
 		
-				
+		ConexionBDD.getConexion().obtenerUsuarios();		
 		
 	}
 	
