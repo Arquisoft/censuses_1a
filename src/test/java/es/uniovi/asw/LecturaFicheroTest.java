@@ -19,7 +19,7 @@ import es.uniovi.asw.parser.ReadCensus;
 //@Transactional
 public class LecturaFicheroTest {
 	
-	@Test
+	//@Test
 	public void evalLectura() {
 		
 		//  Este metodo accede a la BD, asi que no subir descomentado, y que sino da error

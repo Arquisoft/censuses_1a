@@ -21,7 +21,7 @@ public class TestBD {
 	List<User> excel = null;
 	List<User> db = null;
 
-	@Before
+	//@Before
 	public void inicializar() {
 		Read read = new ReadP();
 		ReadCensus readCensus = new RCensus("Censos.xls",
@@ -32,14 +32,14 @@ public class TestBD {
 		System.out.println();
 	}
 
-	@Test
+	//@Test
 	public void testNumeroDatos() {
 		// Esto significa que la BD esta encendida
 		assertEquals(excel.size(), db.size());
 
 	}
 
-	@Test
+	//@Test
 	public void coincidenciaDatosExcelDB() {
 		//comprueba que exista los mismos datos en el excel que en la base de datos
 		for (int i = 0; i < excel.size(); i++) {

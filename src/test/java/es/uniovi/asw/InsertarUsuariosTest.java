@@ -17,7 +17,7 @@ public class InsertarUsuariosTest {
 	
 	List<User>usuarios=null;
 	
-	@Before
+	//@Before
 	public void insertarUsuarios() throws IOException
 	{
 				
@@ -31,13 +31,13 @@ public class InsertarUsuariosTest {
 	}
 	
 
-	@Test
+	//@Test
 	public void testUsuarios() throws IOException {
 		
 		
 	}
 	
-	@Test
+	//@Test
 	public void testContraseña() throws IOException {
 	
 	
