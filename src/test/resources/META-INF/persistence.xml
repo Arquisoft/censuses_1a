@@ -7,16 +7,19 @@
  
 	<persistence-unit name="censuses" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<properties>
 		
 			
+		<class>es.uniovi.asw.logica.User</class>
+			
 		
+		<properties>
+			
 			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
 			<property name="hibernate.connection.driver_class" value="org.h2.Driver" />
 			<property name="hibernate.connection.url" value="jdbc:h2:mem:test;DB_CLOSE_DELAY=-1" />
 			<property name="hibernate.connection.user" value="sa" />
 			<property name="javax.persistence.jdbc.password" value="sa" />
-			<property name="hibernate.show_sql" value="true"/>
+			 <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
 	
 				
 		</properties>

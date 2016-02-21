@@ -38,7 +38,7 @@ public class InsertarUsuariosTest {
 
 	@Test
 	public void testUsuarios() throws IOException, SQLException {
-		 
+		 System.out.println(ConexionBDD.getConexion().obtenerUsuarios().get(0));
 		
 	}
 	
