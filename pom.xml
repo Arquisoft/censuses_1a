@@ -218,6 +218,16 @@
 			<timezone>2</timezone>
 			<properties />
 		</developer>
+		<developer>
+			<id>carlos</id>
+			<name>Carlos Villa Blanco</name>
+			<email>uo236851@uniovi.es</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+			<timezone>2</timezone>
+			<properties />
+		</developer>
 	</developers>
 
 
