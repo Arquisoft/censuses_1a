@@ -1,7 +1,0 @@
-Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
-	Usuario: Elena@gmail.com
-<<<<<<< HEAD
-	Contraseña: qwnzbanm6u
-=======
-	Contraseña: 5cESy7fbOU
->>>>>>> origin/master

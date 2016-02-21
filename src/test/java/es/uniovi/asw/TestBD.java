@@ -1,7 +1,13 @@
 package es.uniovi.asw;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 import org.junit.Before;
@@ -20,16 +26,20 @@ public class TestBD {
 	List<User> excel = null;
 	List<User> db = null;
 
+
 	@Before
-	public void inicializar() {
+	public void inicializar() throws SQLException {
+				
 		Read read = new ReadP();
 		ReadCensus readCensus = new RCensus("Censos.xls",
 				new GeneradorCartasTXT(), new ParserXLS());
 		readCensus.readCensus();
 		excel = readCensus.getUsuarios();
 		db = read.getUsuariosBD();
-		System.out.println();
+
 	}
+
+	
 
 	@Test
 	public void testNumeroDatos() {

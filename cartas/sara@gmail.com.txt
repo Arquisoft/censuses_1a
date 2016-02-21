@@ -1,7 +1,0 @@
-Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
-	Usuario: sara@gmail.com
-<<<<<<< HEAD
-	Contraseña: 3oL3dlTGqT
-=======
-	Contraseña: 2NNNwtuXFB
->>>>>>> origin/master

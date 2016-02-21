@@ -1,7 +1,0 @@
-Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
-	Usuario: rodrigo@gmail.com
-<<<<<<< HEAD
-	Contraseña: OxOmtQgyvX
-=======
-	Contraseña: IH61O4kq0K
->>>>>>> origin/master
