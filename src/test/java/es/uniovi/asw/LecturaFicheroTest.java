@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import es.uniovi.asw.logica.User;
@@ -18,13 +20,14 @@ import es.uniovi.asw.parser.ReadCensus;
 //{ "classpath:applicationContext.xml" })
 //@Transactional
 public class LecturaFicheroTest {
+	ConexionBDD c=ConexionBDD.getConexion();
 	
 	@Test
 	public void evalLectura() {
 		
 		//  Este metodo accede a la BD, asi que no subir descomentado, y que sino da error
 		 
-		
+		c.eliminarDB();
 		ReadCensus readCensus = new RCensus("Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
 		readCensus.readCensus();
 		List<User> usuarios = readCensus.getUsuarios();
@@ -51,6 +54,12 @@ public class LecturaFicheroTest {
 
 	}
 	
+	
+	@After
+	public void eliminarDB()
+	{
+		c.eliminarDB();
+	}
 
 
 }

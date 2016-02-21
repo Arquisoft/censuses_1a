@@ -3,43 +3,38 @@ package es.uniovi.asw;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import es.uniovi.asw.dbUpdate.Read;
-import es.uniovi.asw.dbUpdate.ReadP;
+
 import es.uniovi.asw.logica.User;
 import es.uniovi.asw.parser.GeneradorCartasTXT;
 import es.uniovi.asw.parser.ParserXLS;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
-public class TestBD {
+public class TestBDExcelCompleto {
 
 	List<User> excel = null;
 	List<User> db = null;
+	ConexionBDD c=null;
 
 
 	@Before
 	public void inicializar() throws SQLException {
 				
-		Read read = new ReadP();
+		c=ConexionBDD.getConexion();
+		c.eliminarDB();
 		ReadCensus readCensus = new RCensus("Censos.xls",
 				new GeneradorCartasTXT(), new ParserXLS());
 		readCensus.readCensus();
 		excel = readCensus.getUsuarios();
-		db = read.getUsuariosBD();
+		db = c.obtenerUsuarios();
 
 	}
 
@@ -61,4 +56,33 @@ public class TestBD {
 
 	}
 
+	@Test
+	public void testContraseña() throws IOException {
+			for(int i=0;i<db.size();i++)
+				assertEquals(10,db.get(i).getContraseña().length());
+	
+		
+	}
+	
+	@Test
+	public void todosCamposRellenos()
+	{
+		//comprueba que todos los campos de la DB esten rellenos
+		for(User u:db)
+		{
+			assertTrue(!u.getName().equals(null));
+			assertTrue(!u.getNIF().equals(null));
+			assertTrue(!u.getEmail().equals(null));
+			assertTrue(u.getCodigoMesa()!=0);
+			assertTrue(!u.getContraseña().equals(null));
+		}
+	}
+	
+	@After
+	public void eliminarDB()
+	{
+		c.eliminarDB();
+	}
+	
+	
 }

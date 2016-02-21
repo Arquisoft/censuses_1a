@@ -12,5 +12,9 @@
 	<named-query name="User.findByNameDni">
 		<query>select u from User u where u.NIF=?1 and u.name=?2</query>
 	</named-query>
+	
+	<named-query name="User.delete">
+		<query>delete from User</query>
+	</named-query>
 
 </entity-mappings>

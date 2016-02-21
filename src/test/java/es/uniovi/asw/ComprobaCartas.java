@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -23,10 +24,13 @@ public class ComprobaCartas {
 	
 	List<User>excel=null;
 	List<File>cartas=new ArrayList<File>();
+	ConexionBDD c=null;
 	
 	@Before
 	public void rellenar() throws IOException
 	{
+		c=ConexionBDD.getConexion();
+		c.eliminarDB();
 		ReadCensus r=new RCensus("src/test/resources/Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
 		r.readCensus();
 		excel=r.getUsuarios();
@@ -75,5 +79,12 @@ public class ComprobaCartas {
 		}
 		
 	}
+	
+	@After
+	public void eliminarDB()
+	{
+		c.eliminarDB();
+	}
+	
 
 }

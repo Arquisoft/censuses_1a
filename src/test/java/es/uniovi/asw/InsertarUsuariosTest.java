@@ -1,13 +1,12 @@
 package es.uniovi.asw;
 
+import static org.junit.Assert.*;
+
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+
 import java.util.List;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,11 +20,13 @@ import es.uniovi.asw.parser.ReadCensus;
 public class InsertarUsuariosTest {
 	
 	List<User>usuarios=null;
+	ConexionBDD c=null;
 	
 	@Before
 	public void insertarUsuarios() throws IOException
 	{
-				
+		c=ConexionBDD.getConexion();	
+		c.eliminarDB();
 		ReadCensus r=new RCensus("src/test/resources/Censos.xls",new GeneradorCartasTXT(),new ParserXLS());
 		r.readCensus();
 		
@@ -35,18 +36,24 @@ public class InsertarUsuariosTest {
 		
 	}
 	
-
 	@Test
-	public void testUsuarios() throws IOException, SQLException {
-		 System.out.println(ConexionBDD.getConexion().obtenerUsuarios().get(0));
-		
+	public void todoCamposRellenosExcel() {
+		assertEquals(2,usuarios.size());
 	}
+
+	
 	
 	@Test
 	public void testContraseña() throws IOException {
-	
+			for(int i=0;i<usuarios.size();i++)
+				assertEquals(10, usuarios.get(i).getContraseña().length());
 	
 		
 	}
-
+	
+	@After
+	public void eliminarDB()
+	{
+		c.eliminarDB();
+	}
 }
