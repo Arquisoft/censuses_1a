@@ -39,6 +39,11 @@ public class Jpa {
 		return emf;
 	}
 
+	public static final void acabarEntityManagerFactory(){
+		if(emf != null){
+			emf.close();
+		}
+	}
 	private static String loadPersistentUnitName() {
 		try {
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
