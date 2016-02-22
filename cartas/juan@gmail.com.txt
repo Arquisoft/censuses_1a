@@ -1,3 +1,7 @@
 Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
 	Usuario: juan@gmail.com
+<<<<<<< HEAD
 	Contraseña: 9AFyNdK2p4
+=======
+	Contraseña: ZSisdTC5fP
+>>>>>>> origin/master
