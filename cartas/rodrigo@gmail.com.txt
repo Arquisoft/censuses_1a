@@ -1,7 +1,3 @@
-Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
+Le comunicamos que ha sido a�adido al censo electoral y puede entrar en su cuenta con la siguiente informaci�n:
 	Usuario: rodrigo@gmail.com
-<<<<<<< HEAD
-	Contraseña: JKXKZkmWny
-=======
-	Contraseña: WHYjAUJeMe
->>>>>>> origin/master
+	Contrase�a: JSR6TdChFe

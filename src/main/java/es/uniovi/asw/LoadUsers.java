@@ -141,9 +141,9 @@ public class LoadUsers {
 		
 					
 		} catch (ParseException e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
-		Jpa.acabarEntityManagerFactory();
+		Jpa.closeEntityManagerFactory();
 	
 	}
 	

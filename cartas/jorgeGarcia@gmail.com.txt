@@ -1,7 +1,3 @@
-Le comunicamos que ha sido añadido al censo electoral y puede entrar en su cuenta con la siguiente información:
+Le comunicamos que ha sido a�adido al censo electoral y puede entrar en su cuenta con la siguiente informaci�n:
 	Usuario: jorgeGarcia@gmail.com
-<<<<<<< HEAD
-	Contraseña: 2IGnEmajLX
-=======
-	Contraseña: 8fuOyYqFsi
->>>>>>> origin/master
+	Contrase�a: LgmmizR5hc

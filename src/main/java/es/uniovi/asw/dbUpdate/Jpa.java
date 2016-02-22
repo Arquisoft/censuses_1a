@@ -32,14 +32,14 @@ public class Jpa {
 	}
 
 	public static EntityManagerFactory getEmf() {
-		if (emf == null) {
+		if (emf == null || !emf.isOpen()) {
 			String persistenceUnitName = loadPersistentUnitName();
 			emf = Persistence.createEntityManagerFactory(persistenceUnitName);
 		}
 		return emf;
 	}
 
-	public static final void acabarEntityManagerFactory(){
+	public static final void closeEntityManagerFactory(){
 		if(emf != null){
 			emf.close();
 		}
