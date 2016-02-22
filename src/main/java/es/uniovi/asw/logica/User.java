@@ -25,7 +25,7 @@ public class User {
 	public User(String name, String NIF, String email, int codigoMesa,String contraseña) {
 		this.setName(name);
 		this.setNIF(NIF);
-		this.email = email;
+		this.setEmail(email);
 		this.setCodigoMesa(codigoMesa);
 		this.setContraseña(contraseña);
 	}

@@ -1,6 +1,7 @@
 package es.uniovi.asw.util;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import es.uniovi.asw.logica.User;
@@ -56,9 +57,17 @@ public class Comprobador {
 		
 		//Pablo añade comprobación usuarios con mismo NIF. 
 		//Los dos que tienen mismo NIF se van fuera
+		List<User> usuariosValidos = usuarios;
+		for(int i=0; i<usuarios.size();i++){
+			for (int j = i; j < usuarios.size(); j++) {
+				
+				if(usuarios.get(i).getNIF().equalsIgnoreCase(usuarios.get(j).getNIF()))
+						usuariosValidos.remove(i);
+			}
+		}
 		
 		
-		return null;
+		return usuariosValidos;
 		
 	}
 
