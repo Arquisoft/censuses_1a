@@ -1,15 +1,14 @@
 package es.uniovi.asw;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+
+import org.junit.*;
+
 
 
 import es.uniovi.asw.logica.User;
@@ -18,28 +17,25 @@ import es.uniovi.asw.parser.ParserXLS;
 import es.uniovi.asw.parser.RCensus;
 import es.uniovi.asw.parser.ReadCensus;
 
-public class TestBDExcelCompleto {
+public class BDExcelIncompletoTest {
 
 	List<User> excel = null;
 	List<User> db = null;
-	ConexionBDD c=null;
-
+	ConexionBDD c= null;
 
 	@Before
 	public void inicializar() throws SQLException {
 				
 		c=ConexionBDD.getConexion();
 		c.eliminarDB();
-		ReadCensus readCensus = new RCensus("Censos.xls",
+		ReadCensus readCensus = new RCensus("src/test/resources/Censos.xls",
 				new GeneradorCartasTXT(), new ParserXLS());
 		readCensus.readCensus();
 		excel = readCensus.getUsuarios();
 		db = c.obtenerUsuarios();
 
 	}
-
 	
-
 	@Test
 	public void testNumeroDatos() {
 		// Esto significa que la BD esta encendida
@@ -55,14 +51,15 @@ public class TestBDExcelCompleto {
 		}
 
 	}
-
+	
 	@Test
 	public void testContraseña() throws IOException {
 			for(int i=0;i<db.size();i++)
-				assertEquals(10,db.get(i).getContraseña().length());
+				assertEquals(10, db.get(i).getContraseña().length());
 	
 		
 	}
+	
 	
 	@Test
 	public void todosCamposRellenos()
@@ -83,6 +80,5 @@ public class TestBDExcelCompleto {
 	{
 		c.eliminarDB();
 	}
-	
-	
+
 }
