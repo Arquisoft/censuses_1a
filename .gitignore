@@ -4,6 +4,7 @@
 *.jar
 *.war
 *.ear
+*.txt
 .classpath
 .settings/*
 /target
