@@ -10130,3 +10130,443 @@ Tue Feb 23 11:03:19 CET 2016 - Encontrado campo nombre vacio
 Tue Feb 23 11:03:19 CET 2016 - Encontrado campo NIF vacio
 Tue Feb 23 11:03:19 CET 2016 - Encontrado campo email vacio
 Tue Feb 23 11:03:19 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:36:57 CET 2016 - No se ha podido conectar con la base de datos
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:36:57 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:36:57 CET 2016 - No se ha podido conectar con la base de datos
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:37:32 CET 2016 - No se ha podido conectar con la base de datos
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:37:32 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:37:32 CET 2016 - No se ha podido conectar con la base de datos
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:30 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:39:31 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:39:31 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:31 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:39:32 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:11 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:40:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:12 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:12 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:13 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:13 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:42 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:42 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo nombre vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - El codigo de mesa debe ser numérico
+Tue Feb 23 18:45:43 CET 2016 - Campo no valido del excel
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo NIF vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo código mesa vacio
+Tue Feb 23 18:45:43 CET 2016 - Encontrado campo email vacio

@@ -8,7 +8,7 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.PersistenceException;
 
 import es.uniovi.asw.dbUpdate.Jpa;
-import es.uniovi.asw.logica.User;
+import es.uniovi.asw.model.User;
 
 
 public class ConexionBDD {

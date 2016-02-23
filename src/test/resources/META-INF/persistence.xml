@@ -9,7 +9,7 @@
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		
 			
-		<class>es.uniovi.asw.logica.User</class>
+		<class>es.uniovi.asw.model.User</class>
 			
 		
 		<properties>

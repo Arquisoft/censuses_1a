@@ -2,7 +2,7 @@ package es.uniovi.asw.parser;
 
 import java.util.List;
 
-import es.uniovi.asw.logica.User;
+import es.uniovi.asw.model.User;
 
 public interface ReadCensus {
 

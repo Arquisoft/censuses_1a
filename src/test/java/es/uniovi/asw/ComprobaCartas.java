@@ -13,7 +13,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import es.uniovi.asw.logica.User;
+import es.uniovi.asw.model.User;
 import es.uniovi.asw.parser.GeneradorCartasTXT;
 import es.uniovi.asw.parser.ParserXLS;
 import es.uniovi.asw.parser.RCensus;

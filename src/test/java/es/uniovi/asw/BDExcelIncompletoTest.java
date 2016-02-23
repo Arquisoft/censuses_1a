@@ -9,9 +9,7 @@ import java.util.List;
 
 import org.junit.*;
 
-
-
-import es.uniovi.asw.logica.User;
+import es.uniovi.asw.model.User;
 import es.uniovi.asw.parser.GeneradorCartasTXT;
 import es.uniovi.asw.parser.ParserXLS;
 import es.uniovi.asw.parser.RCensus;

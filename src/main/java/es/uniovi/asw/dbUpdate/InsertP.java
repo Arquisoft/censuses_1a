@@ -7,7 +7,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.PersistenceException;
 
-import es.uniovi.asw.logica.User;
+import es.uniovi.asw.model.User;
 import es.uniovi.asw.reportWriter.WriteReport;
 
 public class InsertP implements Insert {

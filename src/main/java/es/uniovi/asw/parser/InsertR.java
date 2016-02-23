@@ -5,7 +5,7 @@ import java.util.List;
 
 import es.uniovi.asw.dbUpdate.Insert;
 import es.uniovi.asw.dbUpdate.InsertP;
-import es.uniovi.asw.logica.User;
+import es.uniovi.asw.model.User;
 import es.uniovi.asw.util.Comprobador;
 
 public class InsertR {
