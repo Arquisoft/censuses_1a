@@ -12,10 +12,12 @@ services:
   - mysql
   
 before_install:
+    - pip install --upgrade pip
+    - pip install codecov
     - mysql -u root -e 'create database Usuarios;'
     - mysql -u root -e 'Use Usuarios;CREATE TABLE TUSERS(ID BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,NIF VARCHAR(255),CODIGOMESA INTEGER NOT NULL,CONTRASEÑA VARCHAR(255),EMAIL VARCHAR(255),NAME VARCHAR(255))'
-    - pip install codecov
- 
+    
+   
 after_success:
   - codecov
 
